@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-
 }
 
 body {
@@ -11,6 +10,10 @@ body {
 .title-card {
     text-align: center;
     padding: 3px;
+    font-size: 25px;
+}
+h1 {
+    padding: 10;
 }
 
 .container {
@@ -53,16 +56,16 @@ body {
 }
 
 .calc-button:last-child {
-    background-color: #df974c;
+    background-color: #0070b1;
     color: white;
 }
 
-.calc-button :last-child:hover {
-    background-color: #e6c4a0;
+.calc-button:last-child:hover {
+    background-color: #005383;
 }
 
 .calc-button:last-child:active {
-    background-color: #b8732b;
+    background-color: #00395a;
 }
 
 .double {
